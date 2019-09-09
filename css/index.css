@@ -287,9 +287,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .container {
-    width: 100%;
-  }
   header {
     flex-direction: column-reverse;
     align-items: center;
@@ -304,10 +301,13 @@ footer {
 
 @media (max-width: 500px) {
   header nav {
-    flex-flow: column;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  header nav a:first-child {
+    border-top: 1px solid #333;
   }
   header nav a {
     margin-right: 0;
