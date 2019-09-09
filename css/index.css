@@ -165,7 +165,7 @@ p {
 header nav {
   display: flex;
   flex-flow: row nowrap;
-  width: 691px;
+  width: 60%;
   vertical-align: top;
   margin-top: 35px;
 }
@@ -176,7 +176,7 @@ header {
 }
 
 header nav a {
-  margin-right: 65px;
+  margin-right: 35px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
