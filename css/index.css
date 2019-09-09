@@ -201,6 +201,7 @@ header .logo {
 /* cta */
 .cta {
   display: flex;
+  justify-content: center;
 }
 
 .cta .cta-text {
@@ -234,7 +235,7 @@ header .logo {
 }
 
 .main-content {
-  border-top: 1px solid black;
+  border-top: 3px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
@@ -242,6 +243,7 @@ header .logo {
 .main-content .top-content {
   padding: 0 10px;
   display: flex;
+  justify-content: center;
 }
 
 .main-content .top-content .text-content {
@@ -261,6 +263,7 @@ header .logo {
   margin-top: 37px;
   padding: 0 10px;
   display: flex;
+  justify-content: center;
 }
 
 .main-content .bottom-content .text-content {
@@ -273,9 +276,9 @@ header .logo {
 }
 
 .contact {
-  margin-top: 57px;
-  border-top: 1px solid black;
+  border-top: 3px solid black;
   padding: 39px 10px 0;
+  margin: 57px 0 0;
 }
 
 .contact p {
