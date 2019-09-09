@@ -154,9 +154,9 @@ p {
 }
 
 .container {
-  width: 100%;
+  width: 880px;
   /* TB LR */
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 /* header */
@@ -287,6 +287,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
   header {
     flex-direction: column-reverse;
     align-items: center;
